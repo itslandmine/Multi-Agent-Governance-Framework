@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//private/tmp/keynote_extract/pres_contents/**)",
+      "Bash(for f in Index/Slide*.iwa)",
+      "Bash(do echo \"=== $f ===\")",
+      "Read(//Users/blouka/Documents/evalsPractice/**)",
+      "Bash(grep -v \"^$\")",
+      "Bash(done)",
+      "Bash(mdls:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)"
+    ]
+  }
+}
